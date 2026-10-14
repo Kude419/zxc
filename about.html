@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наша Команда — Кондитеры и Разработчики</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: 600;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .member-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .member-item {
+            background: #fff;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .member-item.pastry {
+            border-left-color: #e74c3c;
+        }
+        .name {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+        .age {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+        .role {
+            font-style: italic;
+            color: #16a085;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Создатели вашего проекта и десертов</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Имя участника</th>
+                <th>Возраст</th>
+                <th>Специализация / Ключевые навыки</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Мутица Дарья</strong></td>
+                <td>17 лет</td>
+                <td>Шеф-кондитер, создание муссовых начинок, разработка новых вкусов</td>
+            </tr>
+            <tr>
+                <td><strong>Куделько Даниил</strong></td>
+                <td>18 лет</td>
+                <td>Мастер сложного декора и сборки многоярусных конструкций</td>
+            </tr>
+            <tr>
+                <td><strong>Шалький Егор</strong></td>
+                <td>18 лет</td>
+                <td>Разработчик, проектирование систем, баз данных и логики проекта</td>
+            </tr>
+            <tr>
+                <td><strong>Гмызо Александр</strong></td>
+                <td>17 лет</td>
+                <td>Разработчик, интерфейсы, адаптивная верстка и интеграция</td>
+            </tr>
+            <tr>
+                <td><strong>Галынский Яромир</strong></td>
+                <td>17 лет</td>
+                <td>Разработчик, оптимизация серверной части, архитектура кода и безопасность</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Подробная информация о команде</h2>
+
+    <ul class="member-list">
+        <li class="member-item pastry">
+            <div class="name">Мутица Дарья</div>
+            <div class="age">Возраст: 17 лет</div>
+            <div class="role">Шеф-кондитер</div>
+            <div class="desc">Отвечает за кондитерское направление. Создает потрясающие муссовые начинки и занимается разработкой новых вкусовых сочетаний.</div>
+        </li>
+        <li class="member-item pastry">
+            <div class="name">Куделько Даниил</div>
+            <div class="age">Возраст: 18 лет</div>
+            <div class="role">Мастер декора</div>
+            <div class="desc">Специализируется на создании сложного визуального оформления и сборке масштабных, надежных многоярусных конструкций.</div>
+        </li>
+        <li class="member-item">
+            <div class="name">Шалький Егор</div>
+            <div class="age">Возраст: 18 лет</div>
+            <div class="role">Разработчик (Core/Backend)</div>
+            <div class="desc">Занимается проектированием основных систем, бизнес-логикой и обеспечением стабильного взаимодействия всех компонентов.</div>
+        </li>
+        <li class="member-item">
+            <div class="name">Гмызо Александр</div>
+            <div class="age">Возраст: 17 лет</div>
+            <div class="role">Разработчик (Frontend)</div>
+            <div class="desc">Фокусируется на пользовательских интерфейсах, верстке, анимациях и создании удобной визуальной среды проекта.</div>
+        </li>
+        <li class="member-item">
+            <div class="name">Галынский Яромир</div>
+            <div class="age">Возраст: 17 лет</div>
+            <div class="role">Разработчик (Backend/DevOps)</div>
+            <div class="desc">Отвечает за серверную логику, оптимизацию алгоритмов, скорость обработки данных и архитектурную безопасность.</div>
+        </li>
+    </ul>
+
+</body>
+</html>
